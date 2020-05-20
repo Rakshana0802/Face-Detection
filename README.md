@@ -21,7 +21,7 @@ Multi-task Cascaded Convolutional Neural Networks(MTCNN) detects the bounding bo
 MTCNN was designed specifically for face detection and so it is no shock that MTCNN performed better that Haar cascade which has a more versatile use case.
 For example: 
 
-<img src='mtcnn_found.jpg'>
+
 
 In the above image,Haar Cascade could not detect any face whereas MTCNN managed to find all.
 ## Installations needed:
