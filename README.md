@@ -17,6 +17,13 @@ The Haar Cascade model can be downloaded originally from- https://github.com/ope
 ## MTCNN
 Multi-task Cascaded Convolutional Neural Networks(MTCNN) detects the bounding boxes of faces in an image along with their 5 Point Face Landmarks (link- https://kpzhang93.github.io/MTCNN_face_detection_alignment/paper/spl.pdf). 
 
+## MTCNN vs Haar Cascade:
+MTCNN was designed specifically for face detection and so it is no shock that MTCNN performed better that Haar cascade which has a more versatile use case.
+For example: 
+
+<img src='mtcnn_found.jpg'>
+
+In the above image,Haar Cascade could not detect any face whereas MTCNN managed to find all.
 ## Installations needed:
 ```
       $pip install mtcnn
